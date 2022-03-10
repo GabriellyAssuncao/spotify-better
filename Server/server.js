@@ -22,7 +22,7 @@ app.post('/refresh', (req, res) => {
         console.log(data.body)
     })
     .catch(() => {
-        res.sendStatus(400)
+        res.sendStatus(400) 
     })
 })
 
